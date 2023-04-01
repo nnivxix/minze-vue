@@ -12,6 +12,7 @@
   </div>
   <minze-hello name="Hanasa Sofari"></minze-hello>
   <minze-hanasa></minze-hanasa>
+  <minze-looping></minze-looping>
 </template>
 
 <style scoped>
