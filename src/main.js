@@ -3,9 +3,7 @@ import Minze from "minze";
 import "./style.css";
 import App from "./App.vue";
 
-import { minze } from "./components/minze";
-
-const { MinzeHello, MinzeHanasa } = minze;
+import { MinzeHello, MinzeHanasa } from "./components/minze";
 
 Minze.defineAll([MinzeHello, MinzeHanasa]);
 
