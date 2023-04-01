@@ -10,7 +10,7 @@
       <img src="./assets/minze.svg" class="logo minze" alt="Minze logo" />
     </a>
   </div>
-  <minze-hello></minze-hello>
+  <minze-hello name="Hanasa Sofari"></minze-hello>
   <minze-hanasa></minze-hanasa>
 </template>
 

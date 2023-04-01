@@ -1,9 +1,11 @@
 import { Minze, MinzeElement } from "minze";
 
 class MinzeHello extends MinzeElement {
+  attrs = ["name"];
+  static observedAttributes = ["name"];
   reactive = [["count", 0]];
   html = () => /* html */ `
-  <h1>Hello Minze! Woiy</h1>
+  <h1>Hello ${this.name}</h1>
   <p>${this.count}</p>
   <button class="counter">Add Count Minze</button>
   `;
